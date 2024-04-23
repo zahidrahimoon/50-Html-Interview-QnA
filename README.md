@@ -619,13 +619,14 @@ In this example, the third cell spans two columns due to the `colspan="2"` attri
     - The `required` attribute is used to specify that an input field must be filled out before submitting the form, helping to ensure that the user provides necessary information.
 
 
+<img src="https://images.unsplash.com/photo-1499744937866-d7e566a20a61?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTR8fHxlbnwwfHx8fHw%3D" style="width: 100%; height: 400px;"/>
 
-Thank you for using this HTML interview preparation guide! We hope it has helped you in your interview preparation. If you have any questions or feedback, feel free to reach out.
+## Thanks
+`Thank you` for using this HTML interview preparation guide! We hope it has helped you in your interview preparation. If you have any questions or feedback, feel free to reach out.
 
-**Connect with Us:**
-- [GitHub](https://github.com/your-username)
-- [LinkedIn](https://linkedin.com/in/your-profile)
-- [Email](mailto:your-email@example.com)
+# Connect with Us 
+- [GitHub](https://github.com/zahidrahimoon)
+- [LinkedIn](https://www.linkedin.com/in/zahidrahimoon/)
+- [Email](zahidrahimoon22@gmail.com)
 
 Happy coding!
-
