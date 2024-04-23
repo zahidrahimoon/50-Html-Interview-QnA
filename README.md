@@ -1,4 +1,5 @@
-# HTML Interview Preparation
+# 50 HTML Interview Questions and Answers <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="50"/>
+
 
 Welcome to the HTML interview preparation guide! This document contains a list of 50 questions and answers to help you prepare for HTML-related interviews. Each question is followed by a detailed answer to help you understand the concepts better.
 
@@ -532,6 +533,24 @@ the fragment identifier `#section` refers to a specific section within the `page
 
 35. **What is the purpose of the `localStorage` object in HTML5?**
     - The `localStorage` object is used to store key-value pairs locally in the user's browser, allowing data to persist even after the browser is closed.
+
+36 **What is the colspan attribute in HTML ?**
+
+   - The `colspan` attribute in HTML is used in table cells to specify the number of columns a cell should span.
+
+Example:
+
+```html
+<table border="1">
+  <tr>
+    <td>Cell 1</td>
+    <td>Cell 2</td>
+    <td colspan="2">Cell 3 (spanning 2 columns)</td>
+  </tr>
+</table>
+```
+
+In this example, the third cell spans two columns due to the `colspan="2"` attribute, making it wider than the other cells in the same row.
 
 37. **How do you create a new section in HTML5?**
     - You can create a new section using the `<section>` element, which is used to group related content together. For example,
