@@ -15,18 +15,19 @@ Welcome to the HTML interview preparation guide! This document contains a list o
 1. **What is HTML?**
     - HTML stands for Hyper Text Markup Language.Html is the standard `markup language` used to create web pages.
 
-3. **What is meant by Markup Language**
+2. **What is meant by Markup Language**
    - Markup language means a language which defines the `structure of a document using elemnts` like heading,paragraphs,links,lists and more.
 
-4. **What is HTML5?**
+3. **What is HTML5?**
    - HTML5 is the latest version of the Hypertext Markup Language used for structuring and presenting content on the World Wide Web.
 
-5. **What are the new features in HTML5 compared to HTML4?**
+4. **What are the new features in HTML5 compared to HTML4?**
    - Some of the new features in HTML5 include new semantic elements, native support for video and audio, new form input types, local storage, canvas for drawing, and improved accessibility.
 
-6. **Give five Advantags of html 5?**
+5. **Give five Advantages of html 5?**
    
-   - 1. **Rich Media Support**: HTML5 provides native support for audio and video playback without the need for plugins like Flash. This allows developers to create multimedia-rich websites more easily. For example, you can embed a video in HTML5 using the `<video>` element:
+   - **Rich Media Support**:
+     HTML5 provides native support for audio and video playback without the need for plugins like Flash. This allows developers to create multimedia-rich websites more easily. For example, you can embed a video in HTML5 using the `<video>` element:
 
 
    ```html
@@ -34,7 +35,8 @@ Welcome to the HTML interview preparation guide! This document contains a list o
    ```
 
 
-    - 2. **Improved Semantics**: HTML5 introduces new semantic elements like `<header>`, `<footer>`, `<nav>`, `<article>`, `<section>`, and `<aside>`, which provide clearer and more meaningful structure to web pages. For example, you can use the `<header>` and `<footer>` elements to define the header and footer sections of a webpage:
+    -  **Improved Semantics**:
+      HTML5 introduces new semantic elements like `<header>`, `<footer>`, `<nav>`, `<article>`, `<section>`, and `<aside>`, which provide clearer and more meaningful structure to web pages. For example, you can use the `<header>` and `<footer>` elements to define the header and footer sections of a webpage:
 
 
    ```html
@@ -47,7 +49,8 @@ Welcome to the HTML interview preparation guide! This document contains a list o
    ```
 
 
-    - 3. **Offline Application Cache**: HTML5 introduces the ability to store web application resources locally, allowing users to use the application even when they are offline. This is achieved using the Application Cache (AppCache) API. For example, you can define a cache manifest file to specify which resources should be cached:
+    - **Offline Application Cache**:
+      HTML5 introduces the ability to store web application resources locally, allowing users to use the application even when they are offline. This is achieved using the Application Cache (AppCache) API. For example, you can define a cache manifest file to specify which resources should be cached:
 
 
    ```html
@@ -55,7 +58,8 @@ Welcome to the HTML interview preparation guide! This document contains a list o
    ```
 
 
-   - 4. **Improved Forms**: HTML5 introduces new form input types like `email`, `url`, `tel`, `number`, and `date`, as well as new attributes like `required` and `placeholder`, which enhance the user experience and make form validation easier. For example, you can use the `email` input type to create an email input field:
+   - **Improved Forms**:
+      HTML5 introduces new form input types like `email`, `url`, `tel`, `number`, and `date`, as well as new attributes like `required` and `placeholder`, which enhance the user experience and make form validation easier. For example, you can use the `email` input type to create an email input field:
 
 
    ```html
@@ -63,7 +67,8 @@ Welcome to the HTML interview preparation guide! This document contains a list o
    ```
    
 
-   - 5. **Canvas and SVG Support**: HTML5 introduces the `<canvas>` element for drawing graphics and animations dynamically using JavaScript, and the `<svg>` element for creating scalable vector graphics directly in HTML. For example, you can use the `<canvas>` element to draw a simple rectangle:
+   - **Canvas and SVG Support**:
+     HTML5 introduces the `<canvas>` element for drawing graphics and animations dynamically using JavaScript, and the `<svg>` element for creating scalable vector graphics directly in HTML. For example, you can use the `<canvas>` element to draw a simple rectangle:
 
 
    ```html
@@ -76,11 +81,194 @@ Welcome to the HTML interview preparation guide! This document contains a list o
    ```
    
 
-3. **What is the purpose of the `<!DOCTYPE html>` declaration in HTML5?**
+6. **What is the purpose of the `<!DOCTYPE html>` declaration in HTML5?**
    - It specifies to the web browser that the document is an HTML5 document, ensuring that the browser renders the document correctly.
+```html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example Page</title>
+</head>
+<body>
+    <h1>Hello, World!</h1>
+    <p>This is an example page.</p>
+</body>
+</html>
+```
+7. **What is the difference between `HTML` and `XHTML`**
 
-4. **What are semantic elements in HTML5?**
+a. ***Syntax Rules***:
+   - **HTML**: HTML has more lenient syntax rules, allowing for elements to be unclosed (`<br>`, `<img>`) or have optional closing tags (`</p>` is optional in HTML).
+   - **XHTML**: XHTML follows stricter syntax rules derived from XML, requiring all elements to be properly closed and nested. All tags must be lowercase, and attribute values must be enclosed in quotes.
+
+   **Example**:
+   ```html
+   <!-- HTML -->
+   <img src="image.jpg">
+
+   <!-- XHTML -->
+   <img src="image.jpg" />
+   ```
+
+b. ***Attribute Minimization***:
+   - **HTML**: In HTML, some attributes can be minimized, meaning they don't require a value (e.g., `checked`, `disabled`).
+   - **XHTML**: All attributes must have a value in XHTML. Attributes like `checked` and `disabled` must be written as `checked="checked"` and `disabled="disabled"`.
+
+   **Example**:
+   ```html
+   <!-- HTML -->
+   <input type="checkbox" checked>
+   <button disabled>Click me</button>
+
+   <!-- XHTML -->
+   <input type="checkbox" checked="checked" />
+   <button disabled="disabled">Click me</button>
+   ```
+
+c. ***Document Structure***:
+   - **HTML**: In HTML, the document structure is more forgiving, allowing elements like `<html>`, `<head>`, and `<body>` to be omitted in some cases.
+   - **XHTML**: XHTML requires a well-defined document structure with the `<html>`, `<head>`, and `<body>` elements always present and properly nested.
+
+   **Example**:
+   ```html
+   <!-- HTML -->
+   <h1>Hello, World!</h1>
+
+   <!-- XHTML -->
+   <!DOCTYPE html>
+   <html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+       <title>Example</title>
+   </head>
+   <body>
+       <h1>Hello, World!</h1>
+   </body>
+   </html>
+   ```
+
+8. **Difference between `head` and `body` in html**
+   - The `<head>` and `<body>` elements are two fundamental parts of an HTML document that serve different purposes:
+
+ ***`<head>` Element***:
+   - The `<head>` element contains meta-information about the document, such as the title of the document, links to stylesheets, scripts, and other metadata that is not directly displayed on the page.
+   - Content inside the `<head>` element is not visible to the user but is used by browsers and search engines to understand and render the document correctly.
+
+   **Example**:
+   ```html
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <title>Page Title</title>
+       <meta charset="UTF-8">
+       <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+       <!-- Content goes here -->
+   </body>
+   </html>
+   ```
+
+ ***`<body>` Element***:
+   - The `<body>` element contains the content of the document that is displayed to the user, such as text, images, links, and other elements that make up the visible part of the webpage.
+   - All visible content, including headings, paragraphs, images, lists, tables, forms, etc., should be placed inside the `<body>` element.
+
+   **Example**:
+   ```html
+   <!DOCTYPE html>
+   <html>
+   <head>
+       <title>Page Title</title>
+   </head>
+   <body>
+       <h1>Welcome to My Website</h1>
+       <p>This is a paragraph of text.</p>
+       <img src="image.jpg" alt="Image">
+       <a href="https://example.com">Link to Example</a>
+   </body>
+   </html>
+   ```
+9. **What are semantic elements in HTML5?**
    - Semantic elements are tags that provide meaning to the content they enclose, making it easier for search engines and developers to understand the structure of a web page.
+Semantic elements in HTML5 are tags that provide meaning to the content they enclose, making it easier for both developers and browsers to understand the structure of a web page. These elements describe the purpose of the content rather than its appearance. Some common semantic elements in HTML5 include:
+
+ ***`<header>`***: Defines a header section for the document or a section of the document.
+   ```html
+   <header>
+       <h1>Website Title</h1>
+   </header>
+   ```
+
+ ***`<nav>`***: Defines a set of navigation links.
+   ```html
+   <nav>
+       <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Services</a></li>
+           <li><a href="#">Contact</a></li>
+       </ul>
+   </nav>
+   ```
+
+ ***`<main>`***: Defines the main content of the document.
+   ```html
+   <main>
+       <article>
+           <h2>Article Title</h2>
+           <p>Article content goes here...</p>
+       </article>
+   </main>
+   ```
+
+ ***`<section>`***: Defines a section in a document, such as chapters, headers, footers, or any other sections of the document.
+   ```html
+   <section>
+       <h2>Section Title</h2>
+       <p>Section content goes here...</p>
+   </section>
+   ```
+
+ ***`<article>`***: Defines an independent piece of content that could stand alone, such as a blog post or a news article.
+   ```html
+   <article>
+       <h2>Article Title</h2>
+       <p>Article content goes here...</p>
+   </article>
+   ```
+
+ ***`<aside>`***: Defines content aside from the content it is placed in (like a sidebar).
+   ```html
+   <aside>
+       <h3>Related Links</h3>
+       <ul>
+           <li><a href="#">Link 1</a></li>
+           <li><a href="#">Link 2</a></li>
+           <li><a href="#">Link 3</a></li>
+       </ul>
+   </aside>
+   ```
+
+ ***`<footer>`***: Defines a footer for the document or a section of the document.
+   ```html
+   <footer>
+       <p>&copy; 2024 My Website. All rights reserved.</p>
+   </footer>
+   ```
+10. **How do you create a hyperlink in HTML5?**
+   - HTML Elements vs. Tags
+
+***HTML Elements:***  
+HTML elements are the basic building blocks of a web page. They consist of an opening tag, content, and a closing tag. Elements define the structure and content of the document.
+
+***HTML Tags:***  
+HTML tags mark the beginning and end of an element. They are used to define the structure of the document and are enclosed in angle brackets (`<>`).
+
+**Example:**  
+```html
+<!-- Element: <p> defines a paragraph -->
+<p>Interview Question</p>
+```
+
 
 5. **How do you create a hyperlink in HTML5?**
    - You can create a hyperlink using the `<a>` tag and specifying the URL in the `href` attribute. For example, `<a href="https://example.com">Visit Example</a>`.
