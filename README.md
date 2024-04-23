@@ -12,7 +12,7 @@ Welcome to the HTML interview preparation guide! This document contains a list o
 - Use the explanation to deepen your understanding.
 
 
-### Best of Beginners
+### Best For Beginners
 🔍 Comprehensive: Covers 50 questions related to HTML, providing in-depth explanations and examples.
 
 💼 Practical: Includes industry-level content, ensuring relevance and applicability in real-world scenarios.
@@ -23,7 +23,7 @@ Welcome to the HTML interview preparation guide! This document contains a list o
 
 📝 Detailed: Offers thorough answers to each question, covering various aspects of HTML.
 
-#  Start Now
+###  Let's Start
 
 1. **What is HTML?**
     - HTML stands for Hyper Text Markup Language.Html is the standard `markup language` used to create web pages.
