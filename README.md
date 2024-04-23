@@ -1,4 +1,4 @@
-# HTML Interview Preparation:
+# HTML Interview Preparation
 
 Welcome to the HTML interview preparation guide! This document contains a list of 50 questions and answers to help you prepare for HTML-related interviews. Each question is followed by a detailed answer to help you understand the concepts better.
 
@@ -455,7 +455,8 @@ Example:
 ```
 
 19 . **What is Fragment Identifier in a url ?**
-    - A fragment identifier in a URL is a string of characters that identifies a specific part of a resource, such as a section within an HTML document.
+
+- A fragment identifier in a URL is a string of characters that identifies a specific part of a resource, such as a section within an HTML document.
 
 ```html 
 In the URL `https://www.example.com/page#section
