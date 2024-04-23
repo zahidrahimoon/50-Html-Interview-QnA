@@ -254,7 +254,7 @@ Semantic elements in HTML5 are tags that provide meaning to the content they enc
        <p>&copy; 2024 My Website. All rights reserved.</p>
    </footer>
    ```
-10. **How do you create a hyperlink in HTML5?**
+10. **Difference between `Elements` and `Tags` in HTML5?**
    - HTML Elements vs. Tags
 
 ***HTML Elements:***  
