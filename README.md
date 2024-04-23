@@ -1,4 +1,4 @@
-# HTML Interview Preparation: 50 Questions and Answers
+# HTML Interview Preparation:
 
 Welcome to the HTML interview preparation guide! This document contains a list of 50 questions and answers to help you prepare for HTML-related interviews. Each question is followed by a detailed answer to help you understand the concepts better.
 
@@ -10,6 +10,7 @@ Welcome to the HTML interview preparation guide! This document contains a list o
 - Compare your answer with the provided solution.
 - Use the explanation to deepen your understanding.
 
+#  50 Questions and Answers
 
 1. **What is HTML?**
     - HTML stands for Hyper Text Markup Language.Html is the standard `markup language` used to create web pages.
