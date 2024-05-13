@@ -629,4 +629,3 @@ In this example, the third cell spans two columns due to the `colspan="2"` attri
 - [LinkedIn](https://www.linkedin.com/in/zahidrahimoon/)
 - [Email](zahidrahimoon22@gmail.com)
 
-Happy coding!
