@@ -9,7 +9,7 @@ Welcome to the HTML interview preparation guide! This document contains a list o
 - Read each question carefully.
 - Try to answer the question on your own.
 - Compare your answer with the provided solution.
-- Use the explanation to deepen your understanding....
+- Use the explanation to deepen your understanding.....
 
 
 ### Best For Beginners
