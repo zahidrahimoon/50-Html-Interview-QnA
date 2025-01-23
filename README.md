@@ -1,6 +1,5 @@
 # 50 HTML Interview Questions and Answers <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML Logo" width="50"/>
 
-
 Welcome to the HTML interview preparation guide! This document contains a list of 50 questions and answers to help you prepare for HTML-related interviews. Each question is followed by a detailed answer to help you understand the concepts better.
 
 :bulb: **Tip:** Use this guide to review important HTML concepts and improve your interview performance.
@@ -64,7 +63,6 @@ Welcome to the HTML interview preparation guide! This document contains a list o
 
     - **Offline Application Cache**:
       HTML5 introduces the ability to store web application resources locally, allowing users to use the application even when they are offline. This is achieved using the Application Cache (AppCache) API. For example, you can define a cache manifest file to specify which resources should be cached:
-
 
    ```html
    <html manifest="example.appcache">
